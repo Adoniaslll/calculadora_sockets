@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+  <rect width="1000" height="420" fill="#f8fafc"/>
+  <text x="500" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0f172a">Arquitetura da Calculadora em Rede</text>
+
+  <rect x="70" y="120" width="300" height="200" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <text x="220" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e3a8a">CLIENTE</text>
+  <text x="220" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#1e3a8a">cliente.py</text>
+  <text x="220" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">Menu e entrada do usuario</text>
+  <text x="220" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">Porta temporaria</text>
+
+  <rect x="630" y="120" width="300" height="200" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <text x="780" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#14532d">SERVIDOR</text>
+  <text x="780" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#14532d">servidor.py</text>
+  <text x="780" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">Calcula e responde</text>
+  <text x="780" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">Porta TCP 5000</text>
+
+  <line x1="385" y1="190" x2="615" y2="190" stroke="#ea580c" stroke-width="5"/>
+  <polygon points="615,190 590,176 590,204" fill="#ea580c"/>
+  <text x="500" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">CALC|operacao|a|b</text>
+
+  <line x1="615" y1="260" x2="385" y2="260" stroke="#7c3aed" stroke-width="5"/>
+  <polygon points="385,260 410,246 410,274" fill="#7c3aed"/>
+  <text x="500" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5b21b6">OK|resultado ou ERRO|mensagem</text>
+
+  <text x="500" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0f172a">Comunicacao por sockets TCP/IP</text>
+</svg>
